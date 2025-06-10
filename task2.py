@@ -11,7 +11,7 @@ from rdflib import Graph
 
 g = Graph()
 
-g.parse(r"C:\Users\Pili\Downloads\colour-checker-detection-develop\colour-checker-detection-develop\RCC_Tasks\20210325T1530Z_1D_NL_EQ_001.xml")
+g.parse("20210325T1530Z_1D_NL_EQ_001_copy.xml")
 
 v = g.serialize(format="xml")
 
